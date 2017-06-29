@@ -4,6 +4,7 @@ RUN \
   apt-get update && \
   DEBIAN_FRONTEND=noninteractive \
     apt-get -y install \
+      mariadb-client \
       percona-toolkit \
   && \
   apt-get clean && \
