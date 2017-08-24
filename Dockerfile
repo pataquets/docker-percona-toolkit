@@ -1,4 +1,4 @@
-FROM pataquets/ubuntu:xenial
+FROM pataquets/percona-repo:xenial
 
 RUN \
   apt-get update && \
